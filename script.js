@@ -75,36 +75,32 @@ const handleClick = (id, product) => {
             deleteBtn.parentElement.parentElement.parentElement.remove();
         })
     }
+
+    // Tried to follow yt tutorial here, but didn't workout!
+
+    let quantityInputs = document.getElementsByClassName('quantity')
+    for (let i = 0; i < quantityInputs.length; i++) {
+        let input = quantityInputs[i];
+        input.addEventListener('change', quantityChanged());
+    }
+}
+
+// Tried to follow yt tutorial here, but didn't workout!
+const quantityChanged = (event) => {
+    let input = event.target;
+
+    if(input.value <= 0){
+        input.value = 1;
+    }
+    updateTotal();
 }
 
 const updateTotal = (price) => {
-    // let cartItemContainer = document.getElementsByClassName('shopping-cart')[0];
-    // Add Sub Total Price
     subtotalPrice -= price;
 
     let subTotalElement = document.getElementById('subTotal');
     subTotalElement.innerText = subtotalPrice;
     let payNowElement = document.getElementById('payNow');
     payNowElement.innerText = subtotalPrice;
-    console.log(subtotalPrice);
-    // console.log(price);
 
-
-
-
-
-
-
-    // let cartRows = cartItemContainer.getElementsByClassName('cart-items');
-    // total = 0;
-    // for (let i = 0; i < cartRows.length; i++) {
-    //     let cartRow = cartRows[i];
-    //     const cartPrice = cartRow.getElementsByClassName('product-price')[i];
-    //     const quantity = cartRow.getElementsByClassName('quantity')[i];
-    //     console.log(quantity, cartPrice);
-    //     let price = parseFloat(cartPrice);
-    //     let quantityElement = quantity.value;
-    //     total = total + (price * quantity);
-    // }
-    // document.getElementsByClassName('total-price')[0].innerText = total;
 }
