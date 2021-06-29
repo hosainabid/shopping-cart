@@ -1,0 +1,76 @@
+[{
+    "product_id": 0,
+    "product_image": "https://i.ibb.co/pPKg3m3/1.jpg",
+    "product_price": 7500,
+    "product_name": "Winter Jacket"
+  }, {
+    "product_id": 1,
+    "product_image": "https://i.ibb.co/3WFjyYf/2.jpg",
+    "product_price": 8000,
+    "product_name": "Jacket 12 (Size)"
+  }, {
+    "product_id": 2,
+    "product_image": "https://i.ibb.co/CsFphzg/3.webp",
+    "product_price": 9000,
+    "product_name": "Jacket 12 Pro"
+  }, {
+    "product_id": 3,
+    "product_image": "https://i.ibb.co/k8YMQHh/4.jpg",
+    "product_price": 10000,
+    "product_name": "Jacket 12 Pro Max"
+  }, {
+    "product_id": 4,
+    "product_image": "https://i.ibb.co/z8qSf9f/5.webp",
+    "product_price": 1100,
+    "product_name": "Another Random Jacket"
+  }, {
+    "product_id": 5,
+    "product_image": "https://i.ibb.co/ySZd7ft/6.jpg",
+    "product_price": 2300,
+    "product_name": "Winter Special"
+  }, {
+    "product_id": 6,
+    "product_image": "https://i.ibb.co/kx3CwBM/7.jpg",
+    "product_price": 2100,
+    "product_name": "Posh Jacket for Winter"
+  }, {
+    "product_id": 7,
+    "product_image": "https://i.ibb.co/z8qSf9f/5.webp",
+    "product_price": 2200,
+    "product_name": "Winter Cloth"
+  }, {
+    "product_id": 8,
+    "product_image": "https://i.ibb.co/3WFjyYf/2.jpg",
+    "product_price": 4500,
+    "product_name": "Jeans Jacket"
+  }, {
+    "product_id": 9,
+    "product_image": "https://i.ibb.co/CsFphzg/3.webp",
+    "product_price": 1400,
+    "product_name": "Leather Jacket"
+  },{
+    "product_id": 10,
+    "product_image": "https://i.ibb.co/pPKg3m3/1.jpg",
+    "product_price": 3000,
+    "product_name": "Porcelain Apparel"
+  }, {
+    "product_id": 11,
+    "product_image": "https://i.ibb.co/k8YMQHh/4.jpg",
+    "product_price": 1200,
+    "product_name": "Redwood Casualwear"
+  }, {
+    "product_id": 12,
+    "product_image": "https://i.ibb.co/kx3CwBM/7.jpg",
+    "product_price": 1500,
+    "product_name": "Finer Threads"
+  }, {
+    "product_id": 13,
+    "product_image": "https://i.ibb.co/3WFjyYf/2.jpg",
+    "product_price": 2000,
+    "product_name": "Hourglass Jeans"
+  }, {
+    "product_id": 14,
+    "product_image": "https://i.ibb.co/pPKg3m3/1.jpg",
+    "product_price": 7500,
+    "product_name": "Winter Jacket"
+  }]
